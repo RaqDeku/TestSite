@@ -93,6 +93,7 @@ hr{
 .hobby-img{
     float: right;
     width: 10rem;
+    margin-left: 10px;
 }
 
 .profile{
