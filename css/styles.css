@@ -57,10 +57,10 @@ hr{
 }
 
 .forest-img{
-    width: 40%;
+    width: 40rem;
 }
 .profile_msg{
-    width: 40%;
+    width: 40rem;
     margin: auto;
 }
 .bio{
@@ -83,16 +83,16 @@ hr{
 }
 
 .profile-img{
-    width: 10%;
+    width: 10rem;
 }
 .skill-img{
     float: left;
-    width: 20%;
+    width: 10rem;
 }
 
 .hobby-img{
     float: right;
-    width: 30%;
+    width: 10rem;
 }
 
 .profile{
