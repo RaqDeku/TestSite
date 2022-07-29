@@ -1,59 +1,180 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raquib Saabit</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti&family=Nunito:wght@200;800;900&family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+  
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/41b5c9ee65.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+
   </head>
   <body>
-    <div class="top">
-        <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
-        <h1>I'm Raquib.</h1>
-        <h2>a FullStack Web Developer</h2>
-        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
-        <img class="bottom-cloud-2" src="images/cloud.png" alt="cloud-image">
-        <img class="forest-img" src="https://cdn-icons-png.flaticon.com/512/2913/2913483.png" alt="forest-image">
-    </div>
-    <div class="middle">
-        <div class="profile">
-          <img class="profile-img" src="https://cdn-icons.flaticon.com/png/512/1785/premium/1785911.png?token=exp=1658329355~hmac=ef6a25d9edc30f26133864ad5eb4193b" alt="Profile-Picture">
-          <h2>Hello.</h2>
-          <p class="profile_msg">I am a Freelance FullStack Web-Developer and a student at <a class="bio" href="https://cktutas.edu.gh">C.K.Tedem University of Technology and Applied Science</a> pursuing BSc.Computer Science.</p>
-        </div>
-      <hr>
-
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="skill-img" src="https://cdn-icons-png.flaticon.com/512/2282/2282188.png" alt="">
-            <h3>Skills</h3>
-            <p class="profile">I develop and deploy Websites for Clients</p>
+    <!--Navigation Bar-->
+    <section id="title" style="background-image: url(images/htmlcode.jpg);">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">Raquib</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item px-2">
+                  <a href="#about">About</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a href="#skills">Skills</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a href="#hobbies">Hobbies</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a href="#contact">Contact</a>
+                </li>
+            </ul>
           </div>
-          <div class="skill-row">
-            <img class="hobby-img" src="https://cdn-icons-png.flaticon.com/512/5601/5601266.png"alt="">
-            <h3>Hobbies</h3>
-            <p>I like watching documentries and figuring out better ways of doing regular everyday activities.</p>
-          </div>
+        </nav>
+  
+        <div class="intro">
+          <h1>A FullStack Web-Developer & Aviation Enthusiast</h1>
         </div>
-
-      <hr>
-   
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>If you love coding as much as I do.</h3>
-          <a class="btn" href="mailto:raqdeku@outlook.com">CONTACT ME</a>
-        </div>
-    </div>
-      <div class="bottom">
-        <a class="footer-link" href="https://www.instagram.com/cap_ton_">Instagram</a>
-        <a class="footer-link" href="https://twitter.com/RaquibSaabit">Twitter</a>
-        <a class="footer-link" href="https://www.facebook.com/saabit.raquib">Facebook</a>
-        <p class="copyright-msg">© 2022 Raquib Saabit.</p>
       </div>
+    </section>
+
+                                    <!-- Profile Section -->
+
+    <section id="about" style="background-color: black;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <img class="profile-img" src="images/raquib.jpeg">
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <div class="profile-msg">
+              <h3>Profile</h3>
+              <p>
+                I am a student of<a href="https://www.cktutas.edu.gh">C. K. Tedem University of Technology and applied Science</a>.
+                To learn more about me, Contact me. I may be great help for startups!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+                                            <!-- Skills Section -->
+
+    <section id="skills" style="background-color: black;">
+      <div class="container fluid">
+        <h3>Skills</h3>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-dark">
+              <div class="card-header">
+                <h4>Everything Website!</h4>
+              </div>
+
+              <div class="card-body">
+                <p>I build websites right from scratch</p>
+                <p>To look and function as required by clients.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-dark">
+              <div class="card-header">
+                <h4>Front-End Development!</h4>
+              </div>
+              
+              <div class="card-body">
+                <p>I can aslo work as a Front-End Developer.</p>
+                <p>Building the appearance of the website.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-dark">
+              <div class="card-header">
+                <h4>Back-End Development!</h4>
+              </div>
+
+              <div class="card-body">
+                <p>I can also work as Back-End Developer</p>
+                <p>Focusing on the functionality of the Website.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+                                            <!-- Hobbies section -->
+
+    <section id="hobbies" style="background-color: black;">
+      <h3>Hobbies</h3>
+      <div id="hobbiesCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>I love hiking, it may seem easy but it is a deal of exercise😰</h2>
+            <img src="images/hiking.jpg" class="hobbies-img" alt="hiking">
+          </div>
+          <div class="carousel-item">
+            <h2>I love Fishing, I mostly go to my local pond to fish once a while and clear my mind.😄</h2>
+            <img src="images/fishing.jpg" class="hobbies-img" alt="fishing">
+          </div>
+          <div class="carousel-item">
+            <h2>I love watching documentries, especially the ones involving plane crashes.</h2>
+            <img src="images/watchingTv.jpg" class="hobbies-img" alt="watching Tv">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hobbiesCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hobbiesCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+                                        <!-- Contact Section -->
+
+    <section id="contact" style="background-color: black;">
+      <h4 class="cta">Contact Me</h4>
+      <p class="contact-msg">I am currently opened for Freelance web deveploment.</p>
+      <a href="mailto:raqdeku@outlook.com" class="btn btn-lg btn-outline-dark email-btn">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    
+      <footer class="footer">
+        <a class="contact-link" href="https://www.twitter.com/RaquibSaabit"><i class="fa-brands fa-twitter"></i></a>
+        <a class="contact-link" href="https://www.instagram.com/cap_ton_"><i class="fa-brands fa-instagram"></i></a>
+        <a class="contact-link" href="https://www.facebook.com/saabit.raquib"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="contact-link" href="https://www.linkedin.com/in/raquib-dekumwini-saabit/"><i class="fa-brands fa-linkedin-in"></i></a>
+        <p class="copyright">© Copyright Raquib Saabit</p>
+      </footer>
+    </section>
+    
   </body>
 </html>

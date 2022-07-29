@@ -1,166 +1,183 @@
-body{
-    margin: 0; 
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+                                            /* Elements */
+
 
 h1{
-    margin: 50px auto 0px;
-    font-family: 'Sacramento', cursive;
-    font-size: 562.5%;
+    color: #EAF6F6;
+    font-family: 'Kaisei Opti';
+    font-size: 5rem;
+    font-weight: 400;
+    padding: 3% 0;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+@media screen and (max-width: 850px){
+    h1{
+        color: #EAF6F6;
+        font-family: 'Kaisei Opti';
+        font-size: 2.5rem;
+        font-weight: 400;
+        padding: 3% 0;
+        text-align: center;
+        line-height: 1.5;
+    }
 }
 
 h2{
-    font-size: 2.5rem;
-    color: #11999E;
+    font-family: 'Nunito';
     font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+a{
+    text-decoration: underline;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+
+a:hover{
+    color: #c7ecf3;
 }
 
 h3{
-    color: #11999E;
+    font-family: 'Playfair Display';
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 4%;
 }
 
-p{
-    line-height: 2;
+.container-fluid{
+    padding: 3% 3%;
+}
+                                            /* Tittle Section */
+
+#title{
+    height: 100vh;
 }
 
-hr{
-    border-style: dotted none none;
-    border-width: 5px;
-    color: #A6D1E6;
-    margin: 100px auto;
-    width: 10rem;
-
-}
-.top{
-    background-color: aquamarine;
-    position: relative;
-    padding-top: 50px;
+.navbar-brand{
+    font-size: 1.5rem;
 }
 
-.top-cloud{
-    position: absolute;
-    right: 350px;
-    top: 50px;
+.intro{
+    text-align: center;
+    line-height: 1.5;
+    padding: 100px 0 100px;
+    font-size: 2rem;
 }
 
-.bottom-cloud{
-    position: absolute;
-    left: 100px;
-    bottom: 400px;
-}
 
-.bottom-cloud-2{
-    position: absolute;
-    right: 100px;
-    bottom: 300px;
-}
-
-.forest-img{
-    width: 20rem;
-}
-.profile_msg{
-    width: 40rem;
-    margin: auto;
-}
-.bio{
-    color: #95e4ee;
-    text-decoration: none;
-}
-
-.bio:hover{
-    color: #EF5B0C;
-}
-.footer-link {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 20px;
-}
-
-.skill-row{
-    width: 50%;
-    margin: 100px auto;
-}
+                                            /* About Section */
 
 .profile-img{
-    width: 10rem;
-}
-.skill-img{
-    float: left;
-    width: 10rem;
+    margin: 7%;
 }
 
-.hobby-img{
-    float: right;
-    width: 10rem;
-    margin-left: 10px;
+@media screen and (max-width:900px) {
+    .profile-img{
+        position: relative;
+        left: 60px;
+        width: 70%;
+        margin: 4% 4% 6% 4%;
+    }
 }
 
-.profile{
-    color: #40514E;
-}
-
-
-.middle{
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-.bottom{
-    background-color: #66BFBF;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-
-.btn{
-    margin: auto;
-    text-decoration:none; text-align:center; 
-    padding:11px 32px; 
-    border:none; 
-    -webkit-border-radius:9px;
-    -moz-border-radius:9px; 
-    border-radius: 9px; 
-    font:20px Arial, Helvetica, sans-serif; 
-    font-weight:bold; 
-    color:#dbfcfc; 
-    background-color:#11cdd4; 
-    background-image: -moz-linear-gradient(top, #11cdd4 0%, #119a9a 100%); 
-    background-image: -webkit-linear-gradient(top, #11cdd4 0%, #119a9a 100%); 
-    background-image: -o-linear-gradient(top, #11cdd4 0%, #119a9a 100%); 
-    background-image: -ms-linear-gradient(top, #11cdd4 0% ,#119a9a 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#119a9a', endColorstr='#119a9a',GradientType=0 ); 
-    background-image: linear-gradient(top, #11cdd4 0% ,#119a9a 100%);   
-    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
-    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
-     
-}
-.btn:hover{
-    padding:11px 32px; 
-    border:solid 1px #004F72; 
-    -webkit-border-radius:4px;
-    -moz-border-radius:4px; 
-    border-radius: 4px; 
-    font:18px Arial, Helvetica, sans-serif; 
-    font-weight:bold; 
-    color:#dbfcfc; 
-    background-color:#30a4cb; 
-    background-image: -moz-linear-gradient(top, #30a4cb 0%, #2bc4ad 100%); 
-    background-image: -webkit-linear-gradient(top, #30a4cb 0%, #2bc4ad 100%); 
-    background-image: -o-linear-gradient(top, #30a4cb 0%, #2bc4ad 100%); 
-    background-image: -ms-linear-gradient(top, #30a4cb 0% ,#2bc4ad 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2bc4ad', endColorstr='#2bc4ad',GradientType=0 ); 
-    background-image: linear-gradient(top, #30a4cb 0% ,#2bc4ad 100%);   
-    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
-    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+.profile-msg{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Nunito';
+    font-weight: 400;
+    padding: 25% 5%;
+    line-height: 2;
     
 }
 
-.copyright-msg{
-    color: #dbfcfc;
-    font-size: 0.75rem;
-    margin-top: 50px;
-    font-family: Arial;
+                                            /* Skills Section */
+
+#skills{
+    padding: 5% 2%;
+}
+
+.card{
+    background-color: black;
+    color: #ffffff;
+    text-align: left;
+    margin: 3%;
+}
+
+.card-header{
+    margin: 3%;
+    font-family: 'Playfair Display';
+}
+
+.card-body{
+    font-family: 'Nunito';
+    font-weight: 400;
+    margin: 5%;
+}
+
+                                            /* Hobbies Section */
+
+#hobbies{
+    color: #ffffff;
+    padding: 50Px 0 50px;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.caurosel-item{
+    font-family: 'Nunito';
+    padding: 7% 15%;
+}
+
+.hobbies-img{
+    width: 10%;
+    border-radius: 100%;
+    padding: 3% 0;
+}
+
+                                        /* Contact Section */
+
+#contact{
+    color: #ffffff;
+    padding: 3% 5%;
+    text-align: center;
+}
+.cta{
+    font-family: 'Playfair Display';
+    font-size: 3rem;
+}
+.contact-msg{
+    font-family: 'Nunito';
+    font-size: 1.5rem;
+    margin: 3%;
+}
+
+.email-btn{
+    width: 20%;
+    color: #ffffff;
+}
+
+.footer{
+    margin: 3%;
+}
+
+.contact-link{
+    color: #c7ecf3;
+    margin: 3% 2%;
+    font-size: 1.3rem;
+}
+
+.contact-link:hover{
+    color: #ffffff;
+}
+.copyright{
+    font-family: 'Playfair Display';
+    font-size: 0.8rem;
+    margin: 5%;
 }
