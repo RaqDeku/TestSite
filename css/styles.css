@@ -80,7 +80,8 @@ h3{
 @media screen and (max-width:900px) {
     .profile-img{
         position: relative;
-        left: 60px;
+        left: 40px;
+        right: 20px;
         width: 70%;
         margin: 4% 4% 6% 4%;
     }
